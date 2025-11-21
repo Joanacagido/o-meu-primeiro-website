@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Simples</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="toggle" onclick="toggleMode()">🌙 Dark Mode</div>
+
+<nav class="navbar">
+    <div class="logo">MEU SITE</div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="home">
+    <h1>Bem-vindo ao Meu Site!</h1>
+    <p>Este é um site simples para aprender HTML, CSS e JS.</p>
+    <button onclick="clicou()">Clique Aqui!</button>
+</section>
+
+<section id="about">
+    <h2>Sobre Mim</h2>
+    <p>Estou aprendendo a criar websites e este é meu primeiro projeto!</p>
+</section>
+
+<section id="contact">
+    <h2>Contato</h2>
+    <p>Email: exemplo@email.com</p>
+</section>
+
+<footer>
+    © 2025 Meu Site Simples
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
