@@ -1,0 +1,79 @@
+:root {
+    --bg: #f0f0f0;
+    --text: #222;
+    --primary: #3498db;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    transition: 0.3s;
+}
+
+body.dark {
+    --bg: #222;
+    --text: #f0f0f0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--primary);
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: var(--primary);
+    color: white;
+}
